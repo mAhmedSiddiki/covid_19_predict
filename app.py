@@ -8,7 +8,7 @@ import io
 
 img_size=100
 
-app = Flask(__name__) 
+app = Flask(__name__)
 
 model=load_model('model/model-018-0.03.hdf5')
 
@@ -59,4 +59,3 @@ def predict():
 if __name__ == "__main__":
     app.run(debug=True)
 
-#<img src="" id="img" crossorigin="anonymous" width="400" alt="Image preview...">
